@@ -20,7 +20,7 @@ public class Vip extends Ingresso {
         return valorAd;
     }
     public void imprimeValorVip(){
-        System.out.print("Ingresso vip");
+        System.out.print("Ingresso vip ");
         imprimeValor();
         System.out.printf(" Valor Ad: %.2f\n",getValorAd());
     }
